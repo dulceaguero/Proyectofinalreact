@@ -1,0 +1,55 @@
+.About {
+background-color: #F6F6F6;
+margin: 0px 25px;
+display: flex;
+}
+
+
+.cardbox {
+
+    display: flex;
+    flex-direction:row;
+
+}
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-content:center;
+        width: 250px;
+        height: 300px;
+        margin: 15px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #888888;
+        background-color: #fff;
+      }
+
+
+.card h3 {
+    font-size: 45px;
+    margin: 25%;
+    position: relative;
+
+}
+
+.card img {
+    align-items:center;
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    padding: auto;
+    border-radius: 50%;
+    border-style: solid 50px;
+    box-shadow: 2px 2px 2px 2px rgba(32, 32, 32, 0.3);
+ 
+}
+
+.card p{
+    display: flex;
+  object-fit: cover;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: center;
+}

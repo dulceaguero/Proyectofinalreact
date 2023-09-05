@@ -1,0 +1,60 @@
+.footer {
+    background-color: #06052F;
+        display: flex;
+        justify-content:left;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+    
+      }
+
+      .columnas h3 {
+        margin-bottom: 10px;
+        color: #fff;
+      }
+      
+
+      .footer__final {
+        background-color: #06052F;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+      }
+      
+      .footer__logo img {
+        width: 50px;
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+      }
+      
+      .footer__redes {
+        display: flex;
+        align-content:flex-start;
+        margin:0;
+      }
+.columnas {
+    justify-content: right;
+    display:flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 25px;
+    
+}
+.footer__aboutus,
+ .footer__company,
+  .footer__support,
+   .footer__contactus {
+justify-content: right;
+
+}
+      .footer__logo h4 {
+        margin-left: 10px;
+        color: #fff;
+      }
+      
+      .footer__logo p {
+        margin-top: 10px;
+          color: #fff;
+      }

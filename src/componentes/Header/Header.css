@@ -1,0 +1,76 @@
+.header{
+    background:url('./imagen/portada2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.menu nav {
+    display: flex;
+    justify-self: center;
+  
+}
+
+.menu ul {
+    display: flex;
+  justify-content:center;
+  text-align:center;
+  width: 100%;
+    
+
+
+}
+.menu li{
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.menu a{
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.signin {
+    display:flex;
+    right: 7px;
+ align-items:flex-end;
+ background-color: transparent;
+padding: 4px 10px;
+
+}
+
+.Home h1{
+    text-align: center;
+    color: #010326;
+}
+
+.Home p{
+    justify-content: baseline;
+}
+
+.header__navegacion{
+    display: contents;
+
+}
+
+.busqueda img{
+    display: flex;
+    width: 5px;
+    height: 5px;
+    align-items: center;
+    background-color: #F2695C;
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 1;
+    width:100px;
+    text-align:center;
+}
+
+.busqueda{
+    display: flex;
+    align-items:end;
+    align-items: end;
+}
