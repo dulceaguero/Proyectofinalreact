@@ -1,0 +1,31 @@
+.letrero h2 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 75px;
+
+}
+
+.letrero p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 15px;
+
+}
+
+.letrero {
+    background-color: #E6E6FF;
+    padding:40px;
+    margin: 60px;
+}
+
+.buttonfinal .button__letrero {
+    background-color: #F2695C;
+    color: white;
+    border-style: none;
+    margin-top: 15px;
+    padding: 12px 20px;
+    border-radius: 3px;
+    margin-left: 550px;
+
+}

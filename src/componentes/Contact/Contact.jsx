@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div>
             <div className="form">
-            <form action="" className='foprm__box'>
+            <form action="" className='form__box'>
                 <label htmlFor="">Ingrese su nombre</label><br />
                 <input type="text" placeholder='Ingrese Su Nombre'/><br />
                 <label htmlFor="">Ingrese su  Email</label><br />

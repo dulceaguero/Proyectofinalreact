@@ -1,3 +1,117 @@
-.recenttravel {
-    background-color: #f6f6f6;
+.recenttravel h2 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Mukta', sans-serif;
 }
+
+
+.recenttravel p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 15px;
+    margin-bottom: -90px;
+
+}
+
+.recenttravel {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.recenttravel__photos h3 {
+    font-size: 15px;
+    margin-left: -120px;
+    margin-bottom: -15px;
+}
+
+.recenttravel__photos h4 {
+    text-align: start;
+    margin-top: -30px;
+    margin-left: 130px;
+    font-size: 13px;
+}
+
+.photo .estrella {
+    text-align: end;
+    width: 15px;
+    height: 15px;
+    margin-left: 190px;
+    margin-top: -10px;
+}
+
+
+.recenttravel__photos {
+    display: flex;
+    flex-direction: row;
+    margin: 45px;
+    padding: 75px;
+}
+
+.recenttravel__photos img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+.recenttravel__photos .photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.button__photos {
+    display: flex;
+    flex-direction: row;
+    margin-left: -120px;
+    margin-bottom: -45px;
+    background-color: #F2695C;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 3px;
+
+
+
+}
+
+.button__recent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: -25px;
+
+}
+
+.button__recent img {
+    color: white;
+    border-style: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.buttonflecha {
+    border-radius: 50%;
+    text-align: center;
+}
+.button__recent .space {
+    width: 15px;
+}
+
+
+.buttonflecha:hover{
+    background-color:#F2695C;
+
+}
+
+.photo:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}

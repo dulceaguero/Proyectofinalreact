@@ -5,7 +5,7 @@
 
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: #010326;
 }
 
@@ -15,5 +15,6 @@ p{
 }
 
 h1{
-    font-size: 7em;
+    font-size: 6.5em;
+    font-family: 'Mukta', sans-serif;
 }

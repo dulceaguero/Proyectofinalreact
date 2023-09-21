@@ -1,55 +1,72 @@
-.About {
-background-color: #F6F6F6;
-margin: 0px 25px;
-display: flex;
+body {
+    background-color: #f6f6f6;
+
 }
 
+.About {
+
+    margin: 0px 25px;
+
+}
+
+
+.about__tittle h2 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: -15px;
+
+}
+
+.about__tittle p {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 15px;
+
+}
 
 .cardbox {
-
     display: flex;
-    flex-direction:row;
-
+    flex-direction: row;
+    margin: 15px;
+    padding: 65px;
 }
 
-
-    .card {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        align-content:center;
-        width: 250px;
-        height: 300px;
-        margin: 15px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px #888888;
-        background-color: #fff;
-      }
-
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 75%;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    background-color:#FEFFFA;
+}
 
 .card h3 {
-    font-size: 45px;
+    font-size: 35px;
     margin: 25%;
-    position: relative;
+    color: #040626;
+
 
 }
 
 .card img {
-    align-items:center;
+    align-items: center;
     width: 75px;
     height: 75px;
-    margin: 25px;
-    padding: auto;
     border-radius: 50%;
     border-style: solid 50px;
     box-shadow: 2px 2px 2px 2px rgba(32, 32, 32, 0.3);
- 
+    align-items: center;
+
 }
 
-.card p{
-    display: flex;
-  object-fit: cover;
+.card p {
     font-size: 16px;
-    margin: 5px 0;
+    margin: 15px;
+    padding: -30px;
     text-align: center;
 }

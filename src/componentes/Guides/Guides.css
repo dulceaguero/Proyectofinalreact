@@ -1,3 +1,96 @@
-.Guides {
-    background-color: #f6f6f6;
+.guides .guides__tittle {
+    align-items: center;
 }
+
+.guides__tittle h2 {
+
+    margin: 25px;
+    padding: 50px;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+
+
+
+
+.guides .guides__tittle p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 15px;
+    margin-top: -65px;
+    margin-bottom: -5px;
+
+}
+
+.guides .guias {
+    display: flex;
+    flex-direction: row;
+    margin: 45px;
+    padding: 75px;
+    margin-top: -25px;
+
+}
+
+.guias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.guias img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 85%;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+.guias .estrella {
+    text-align: end;
+    width: 15px;
+    height: 15px;
+    margin-left: 190px;
+    margin-top: -15px;
+}
+
+.guias h3 {
+    font-size: 15px;
+}
+
+.guias h4 {
+    text-align: start;
+    margin-top: -30px;
+    margin-left: 160px;
+    font-size: 13px;
+}
+
+.guias__cards {
+    margin-top: 80px;
+}
+
+.guia__button {
+    background-color: #BFBFBF;
+    color: white;
+    border-style: none;
+    margin-top: -35px;
+    padding: 12px 20px;
+    border-radius: 3px;
+    margin-left: 600px;
+}
+
+.guia__button:hover{
+    background-color:#F2695C;
+
+}
+
+.guia__cards:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+
